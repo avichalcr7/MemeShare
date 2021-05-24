@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#d84315</color>
+    <color name="colorPrimaryDark">#d84315</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="coloryellow">#ffeb3b</color>
+    <color name="colordarkorange">#d84315</color>
+    <color name="sharebuttoncolor">#6D50A1</color>
+</resources>

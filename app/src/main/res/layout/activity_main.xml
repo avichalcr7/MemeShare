@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/coloryellow">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="183dp"
+        android:layout_height="103dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="4dp"
+        android:src="@drawable/memelogo1"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="TODO" />
+
+    <TextView
+        android:id="@+id/textwelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:text="@string/welcome_to_the_meme_sharing_app"
+        android:elegantTextHeight="true"
+        android:paddingTop="10dp"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:textColorHighlight="@color/colordarkorange"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textdesc"
+        android:layout_below="@+id/textwelcome"
+        android:layout_marginTop="20dp"
+        android:text="share meme with your friends"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:textColorHighlight="@color/colordarkorange"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textdesc1"
+        android:layout_below="@+id/logo2"
+        android:layout_marginTop="25dp"
+        android:text="Spreading smile in a click"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:textColorHighlight="@color/colordarkorange"/>
+
+    <ImageView
+        android:id="@+id/logo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/memelogo2"
+        android:layout_below="@id/textdesc"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="40dp"
+        />
+
+    <Button
+        android:id="@+id/entertheworld"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo2"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="100dp"
+        android:text="Enter the world of memes"
+        android:onClick="createworld"
+        android:textAppearance="@style/Widget.AppCompat.Spinner.Underlined"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:textAllCaps="true"
+        android:background="@color/colordarkorange"/>
+
+
+</RelativeLayout>
